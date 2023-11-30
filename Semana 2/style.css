@@ -27,7 +27,7 @@ body{
     width: 95%;
     max-width: 1000px;
     height: 25vh;
-    background: url(https://www.agravo.com.br/wp-content/uploads/2016/01/aerea_nazau_2.jpg);
+    background: url(http://www.uesc.br/noticias/imagens/uescguarita.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -49,7 +49,7 @@ body{
 }
 
 .header .logo{
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bras%C3%A3o_UESC.svg/1200px-Bras%C3%A3o_UESC.svg.png);
+    background: url(https://i0.wp.com/www.pebsp.com/wp-content/uploads/2021/01/UESC.jpg?fit=960%2C640&ssl=1);
     height: 100%;
     width: 15%;
     background-size: contain;
@@ -197,14 +197,3 @@ body{
     
 }
 
-.body .servicos .setor li{
-    margin-top: 2px;
-}
-
-.body .servicos .setor a{
-    text-decoration: none;
-}
-
-.body .servicos .setor a:hover{
-    text-decoration: underline;
-}
