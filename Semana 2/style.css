@@ -1,0 +1,210 @@
+@import url('https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.uesc.br%2Fnoticias%2F%3Facao%3Dexibir%26cod_noticia%3D4477&psig=AOvVaw34aaqkoKO5S-4J3lNVEXz5&ust=1701392598213000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIC_vr7D6oIDFQAAAAAdAAAAABAE');
+
+:root{
+    --corBackgroundPrimaria: #4848a1;
+    --corBackgroundSecundaria: #eaeaea;
+    --corBackgroundTerciaria: rgb(50, 116, 173);
+    --corTextoPrimaria: #460a0a;
+    --corTextoSecundaria: #8f4949;
+    --corBordasPrimaria: #b45555;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://www.designi.com.br/images/preview/10506782.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    margin: 0;
+    width: 95%;
+    max-width: 1000px;
+    height: 25vh;
+    background: url(https://www.agravo.com.br/wp-content/uploads/2016/01/aerea_nazau_2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    border-radius: 5px;
+}
+
+.header span{
+    width: 50%;
+    background-color: var(--corBackgroundTerciaria);
+    color: var(--corTextoPrimaria);
+    border-radius: 20px 20px 0px 0px;
+    font-family: Mukta Mahee;
+    font-weight: bold;
+    margin-right: 5%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.header .logo{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bras%C3%A3o_UESC.svg/1200px-Bras%C3%A3o_UESC.svg.png);
+    height: 100%;
+    width: 15%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(240, 240, 240, 0.07);
+    margin-right: 5%;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 20%;
+    grid-template-rows: 1fr 1.5fr;
+    gap: 5px;
+    width: 95%;
+    max-width: 1000px;
+    padding-top: 10px;
+}
+
+.body .head{
+    height: 8%;
+    background-color: var(--corBackgroundPrimaria);
+    color: var(--corTextoSecundaria);
+    font-family: Agbalumo;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 2px;
+    border-radius: 5px 5px 0 0;
+}
+
+.body .menu{
+    background-color: #a1a1a1;
+    border: 0.5px solid var(--corBordasPrimaria);
+    border-radius: 5px;
+    -webkit-box-shadow:0px 0px 9px 3px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.4);
+}
+
+.body .menu .content{
+    display: grid;
+    grid-template-rows: repeat(7, minmax(35px, 1fr));
+    gap: 1px;
+    align-content: space-around;
+}
+
+.body .menu .content span{
+    background-color: #e9e9e9;
+    padding: 7px 10px;
+    font-family: 'Kdam Thmor Pro';
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: 0.7s;
+}
+
+.body .menu .content span:last-child{
+    border-radius: 0px 0px 5px 5px;
+}
+
+.body .menu .content span:hover{
+    text-decoration: underline;
+    background-color: var(--corBackgroundTerciaria);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.body button{
+    background-color: var(--corBackgroundTerciaria);
+    border: 1px solid var(--corBackgroundPrimaria);
+    font-family: 'Kdam Thmor Pro';
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: var(--corBackgroundPrimaria);
+    letter-spacing: 2px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.body button:hover{
+    cursor: pointer;
+    background-color: var(--corBackgroundPrimaria);
+    color: var(--corTextoSecundaria);
+    transition: 0.5s;
+}
+
+.body .destaques{
+    background-color: var(--corBackgroundSecundaria);
+    border: 0.5px solid var(--corBordasPrimaria);
+    border-radius: 5px;
+    -webkit-box-shadow:0px 0px 9px 3px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.4);
+}
+
+.body .destaques .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 92%;
+}
+
+.body .destaques .content img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.body .servicos{
+    background-color: var(--corBackgroundSecundaria);
+    border: 0.5px solid var(--corBordasPrimaria);
+    border-radius: 5px;
+    -webkit-box-shadow:0px 0px 9px 3px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.4);
+}
+
+.body .servicos .content{
+    padding: 10px;
+}
+
+.body .servicos .setor-titulo{
+    display: inline-block;
+    font-family: 'Agbalumo';
+    font-size: 13px;
+    color: var(--corBackgroundPrimaria);
+    cursor: pointer;
+    margin: 5px;
+}
+
+.body .servicos .setor-titulo:hover{
+    text-decoration: underline;
+}
+
+.body .servicos .setor .lista{
+    display: none;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 20px;
+    font-family: 'Kdam Thmor Pro';
+    font-size: 11px;
+    letter-spacing: 1px;
+    
+}
+
+.body .servicos .setor li{
+    margin-top: 2px;
+}
+
+.body .servicos .setor a{
+    text-decoration: none;
+}
+
+.body .servicos .setor a:hover{
+    text-decoration: underline;
+}
