@@ -15,16 +15,16 @@
             <input type="text" id="cidade" name="cidade" required>
             
             <label for="pacote">Categoria do Pacote:</label>
-            <input type="text" name="pacote" id="pacote" required>
+            <input type="text" id="pacote" name="pacote" required>
             
             <label for="preco">Investimento (R$):</label>
-            <input type="number" name="preco" id="preco" step="0.01" required>
+            <input type="number" id="preco" name="preco" step="0.01" required>
             
             <label for="observacoes">Detalhes Surpreendentes:</label>
-            <textarea name="observacoes" id="observacoes" rows="4" required></textarea>
+            <textarea id="observacoes" name="observacoes" rows="4" required></textarea>
             
             <label for="url-img">URL da Imagem Inspiradora:</label>
-            <input type="url" name="url-img" id="url-img" required>
+            <input type="url" id="url-img" name="url-img" required>
             
             <input type="submit" id="adicionar" value="Criar Pacote Memorável">
         </form>
@@ -36,7 +36,7 @@
     
     <br>
     
-    <div class="container">
+    <div class="container"
         <!-- Aqui serão exibidos os pacotes de viagem -->
     </div>
     
